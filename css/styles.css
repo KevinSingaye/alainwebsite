@@ -527,15 +527,62 @@ input[type='checkbox'] {
 }
 
 .header .h1-large {
+	text-shadow: 3px 2px 2px black;
+	font-size: 80px;
 	margin-bottom: 1.75rem;
 	color: #ffffff;
-}
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-left: 30%;
+	transform: translateX(-200%);
+	opacity: 0;
+	animation: slide-in-anim 1.5s ease-out forwards;
+	}
+
+	@keyframes slide-in-anim {
+		20% {
+			opacity: 0;
+		}
+		60% {
+			transform: translateX(-45%);
+		}
+		75% {
+			transform: translateX(-52%);
+		}
+		100% {
+			opacity: 1;
+			transform: translateX(-50%);
+		}
+	}
 
 .header .h2-large {
 	margin-bottom: 1.75rem;
 	text-shadow: 1px 1px 2px black;
 	color: #ffffff;
+	font-weight: 900;
+	background: url('../images/Coding code.jpg');
+	background-size: 100%;
+	
+	-webkit-background-clip: text;
+	color: rgba(222, 214, 214, 0.08);
+	animation: zoomout 5s ease 500ms forwards;
+	
+  }
+
+  
+
+  @keyframes zoomout {
+	from {
+	  background-size: 40%;
+	}
+	to {
+	  background-size: 10%;
+	}
+  
 }
+
+
 
 .header .btn-solid-lg:hover {
 	border: 1px solid #ffffff;
