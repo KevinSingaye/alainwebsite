@@ -565,7 +565,7 @@ input[type='checkbox'] {
 	background-size: 100%;
 	
 	-webkit-background-clip: text;
-	color: rgba(222, 214, 214, 0.08);
+	color: rgba(215, 206, 206, 0.08);
 	animation: zoomout 5s ease 500ms forwards;
 	
   }
@@ -609,9 +609,24 @@ input[type='checkbox'] {
 /*****************/
 /*     About     */
 /*****************/
+
+#about {
+	background-image: url('../images/rm373batch9-033.jpg');
+background-repeat: no-repeat;
+	background-size:cover;
+	background-blend-mode:luminosity;
+	animation: zoomin 5s ease 500ms forwards;
+
+}
+
+#about p {
+	color:#505050 ;
+}
+
 .basic-1 {
 	padding-top: 7.75rem;
 	padding-bottom: 5.25rem;
+	
 }
 
 .basic-1 .text-container {
