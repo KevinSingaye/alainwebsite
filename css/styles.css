@@ -380,6 +380,10 @@ input[type='checkbox'] {
 	
 }
 
+
+
+
+
 .navbar .navbar-brand {
 	padding-top: 0.125rem;
 	padding-bottom: 0.125rem;
@@ -562,26 +566,12 @@ input[type='checkbox'] {
 	text-shadow: 1px 1px 2px black;
 	color: #ffffff;
 	font-weight: 900;
-	background: url('../images/Coding code.jpg');
-	background-size: 100%;
-	
-	-webkit-background-clip: text;
-	color: rgba(215, 206, 206, 0.08);
-	animation: zoomout 5s ease 500ms forwards;
 	
   }
 
   
 
-  @keyframes zoomout {
-	from {
-	  background-size: 40%;
-	}
-	to {
-	  background-size: 10%;
-	}
   
-}
 
 
 
@@ -647,6 +637,34 @@ background-repeat: no-repeat;
 	margin-bottom: 0.125rem;
 }
 
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #0b36a8 5%, #1e62d0 100%);
+	background-color: #0b36a8;
+	border-radius:6px;
+	border:1px solid #0b36a8;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+.btn:hover {
+	
+	background-color: transparent;
+	color: #0b36a8; /* needs to stay here because of the color property of a tag */
+	text-decoration: none;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
 
 /********************/
 /*     Services     */
@@ -696,6 +714,7 @@ background-repeat: no-repeat;
 .split .area-2 {
 	padding-top: 7.75rem;
 	padding-bottom: 7.75rem;
+	
 }
 
 .split p {
