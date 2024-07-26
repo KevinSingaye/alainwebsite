@@ -531,7 +531,7 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/alainstreet.png') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/IMG_8055.png') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -866,7 +866,7 @@ animation: slidein 7s infinite;
 }
 .split .area-1 {
 	height: 430px;
-	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/WhatsApp Image 2024-07-02 at 22.55.50.jpeg') center center no-repeat;
+	background:  url('../images/IMG_7952.png') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1086,7 +1086,7 @@ animation: slidein 7s infinite;
 /*     Contact     */
 /*******************/
 .overlay {
-    background-image: linear-gradient(to right, rgba(90, 100, 232, 0.9), rgba(84, 96, 234, 0.9));
+    background-image: linear-gradient(to right, rgba(19, 20, 33, 0.9), rgba(214, 218, 255, 0.9));
     width: 100%;
     height: 100%;
     z-index: 1;
